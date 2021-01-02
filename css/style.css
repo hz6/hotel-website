@@ -31,7 +31,7 @@ p {
 }
 
 .text-primary {
-  color: #f7c08a;
+  color: #6495ED;
 }
 
 .lead {
@@ -42,40 +42,41 @@ p {
   display: inline-block;
   font-size: 16px;
   color: #ffffff;
-  background: #333333;
+  background: #191970;
   padding: 12px 20px;
   border:none;
   cursor: pointer;
 }
 
 .btn:hover{
-  background: #f7c08a;
-  color: #333333;
+  background: #6495ED;
+  color: #F0FFFF;
+  font-style: italic;
 }
 
 .btn-light {
-  background: #444444;
-  color: #f4f4f4;
+  background:	#6495ED;
+  color: #F0FFFF;
 }
 
 .bg-dark {
-  background: #333333;
+  background:#00008B;
   color: #ffffff;
   overflow: auto;
 }
 
 .bg-medium {
-  background: #666666;
-  color: #f4f4f4;
+  background:	#0000CD;
+  color: #F0FFFF;
 }
 
 .bg-light {
-  background: #f4f4f4;
+  background: #F0FFFF;
   color: #333333;
 }
 
 .bg-primary {
-  background: #f7c08a;
+  background: #6495ED;
   color: #333333;
 }
 
@@ -100,7 +101,7 @@ p {
 
 /* navbar */
 #navbar {
-  background: #333333;
+  background:	#191970;
   color: #ffffff;
   overflow: auto;
 }
@@ -131,8 +132,9 @@ p {
 
 #navbar ul li a:hover, 
 #navbar ul li a.current {
-  background: #444444;
-  color: #f7c08a;
+  background:	#483D8B;
+  color: #6495ED;
+  font-style: italic;
 }
 
 /* showcase */
@@ -145,7 +147,7 @@ p {
 #showcase .showcase-content {
   color: #ffffff;
   text-align: center;
-  padding: 150px;
+  padding: 120px;
   
 }
 
@@ -268,13 +270,13 @@ p {
 #contact-form input:focus, 
 #contact-form textarea:focus {
   outline: none;
-  border-color: #f7c08a;
+  border-color: #6495ED;
 }
 
 /* footer */
 #main-footer {
   text-align: center;
-  background: #444444;
+  background:	#191970;
   color: #ffffff;
   padding: 20px;
 }
